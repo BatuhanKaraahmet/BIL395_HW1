@@ -1,0 +1,39 @@
+test Case 1 – Basit Aritmetik İşlem
+Input:
+  3 + 5
+Output:
+  8
+
+Test Case 2 – Parantezli İşlem
+Input:
+  (1 + 2) * 4
+
+Output:
+  12
+
+Test Case 3 – Karmaşık İfade (float + exponentiation)
+Input:
+  (3 + 5) * (2 - 1) / 4 + 1.5 ^ 2
+Output:
+  10.75
+
+✅ Test Case 5 – Tanımsız Değişken Kullanımı (Hata)
+Input:
+  y + 4
+Output:
+  Error: undefined variable 'y'
+Test Case 6 – Sıfıra Bölme (Hata)
+Input:
+  10 / (3 - 3)
+Output:
+  Error: division by zero
+Test Case 7 – Üs Alma Sağdan Bağlılık (Right Associativity)
+Input:
+  2 ^ 3 ^ 2
+Output:
+  512
+Test Case 8 – Ondalıklı ve Tam Sayı Karışımı
+  Input:
+  1 + 2.75
+  Output:
+    3.75
